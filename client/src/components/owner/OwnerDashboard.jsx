@@ -26,7 +26,7 @@ function StatsCard(props) {
             py={'5'}
             shadow={'xl'}
             border={'1px solid'}
-            borderColor={useColorModeValue('gray.800', 'gray.500')}
+            borderColor="gray.800"
             rounded={'lg'}
             backgroundColor={bgColor}>
             <Flex justifyContent={'space-between'}>
@@ -40,7 +40,7 @@ function StatsCard(props) {
                 </Box>
                 <Box
                     my={'auto'}
-                    color={useColorModeValue('gray.800', 'gray.200')}
+                    color="gray.800"
                     alignContent={'center'}>
                     {icon}
                 </Box>
